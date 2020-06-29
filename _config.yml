@@ -1,11 +1,20 @@
-title: John Doe # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
+title: Pavan Chhatpar # your name (or website title) here
+logo: "/images/avatar.jpeg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
-  <br><br>
-  Second description 
-  <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  I am a graduate student at Northeastern University. I'm working towards my Master's degree in Computer Science specializing in Data Science and Artificial Intelligence.
+  <br/><br/>
+  Currently, I'm a Data Science Intern at Honeywell. Before this, I did a Data Science Co-op program at Wayfair and an internship at dotin where I contributed to projects on Survival Analysis using Deep Learning and various classical ML models.
+  <br/><br/>
+  Outside of internships and curriculum, I have a keen interest in research topics related to NLP and Deep Learning. I try to explain concepts to myself by coding the methods proposed in various research papers.
+  <div class='social'>
+    <a href="https://www.linkedin.com/in/pavan-chhatpar/"><img class='social' src='/images/links/black/linkedin.png'/></a>
+    <a href="https://github.com/pavanchhatpar"><img class='social' src='/images/links/black/github.png'/></a>
+    <a href="/pdf/resume.pdf"><img class='social' src='/images/links/black/resume.png'/></a>
+    <br/>
+    <a href="https://scholar.google.com/citations?hl=en&user=C2s1AyAAAAAJ"><img class='social' src='/images/links/black/google-scholar.png'/></a>
+    <a href="https://www.researchgate.net/profile/Pavan_Chhatpar/research"><img class='social' src='/images/links/black/researchgate.png'/></a>
+    <a href="https://orcid.org/0000-0003-1602-857X"><img class='social' src='/images/links/black/orcid.png'/></a>
+  </div>
   
 theme: jekyll-theme-minimal
-google_analytics: UA-000000-0 # your Google Analytics tracking ID here
+google_analytics:

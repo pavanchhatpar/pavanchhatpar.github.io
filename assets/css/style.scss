@@ -1,0 +1,42 @@
+---
+---
+
+@import "{{ site.theme }}";
+a {
+    img.social {
+        width: 25px;
+        object-fit:cover;
+        padding: 5px;
+    }
+}
+div.social {
+    text-align: center;
+}
+
+.wrapper {
+    header {
+        .container {
+            text-align: center;
+            position: relative;
+            img.logo {
+                width: 150px;
+                border-radius: 50%;
+            }
+            .overlay {
+                position: absolute;
+                bottom: 0px;
+                background: rgba(white, 0.8);
+                height: 20%;
+                width: 100%;
+            }
+        }
+    }
+
+    footer {
+        bottom: 10px;
+        p {
+            margin: 0px;
+        }
+    }
+}
+

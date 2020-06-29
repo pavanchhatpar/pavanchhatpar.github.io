@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  webapp:
+    build: "."
+    container_name: github-portfolio
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./gems:/usr/local/bundle
+      - .:/srv/jekyll
+    command: bundle exec jekyll serve -H 0.0.0.0
