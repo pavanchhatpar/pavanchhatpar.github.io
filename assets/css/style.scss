@@ -15,23 +15,42 @@ div.social {
 
 .wrapper {
     width: 950px;
-    header {
+    position: relative;
+    .headwrapper {
+        position: fixed;
+        width: 270px;
+        top: 50px;
+        bottom: 25px;
+        overflow: hidden;
         @media print, screen and (max-width: 960px) {
-            width: 100%;
+            position: static;
+            width: auto;
         }
-        .container {
-            text-align: center;
-            position: relative;
-            img.logo {
-                width: 150px;
-                border-radius: 50%;
-            }
-            .overlay {
-                position: absolute;
-                bottom: 0px;
-                background: rgba(white, 0.8);
-                height: 20%;
+        header {
+            position: absolute;
+            overflow-y: scroll;
+            top: 0;
+            bottom: 0;
+            box-sizing: content-box;
+            padding-right: 17px;
+            @media print, screen and (max-width: 960px) {
                 width: 100%;
+                position: static;
+            }
+            .container {
+                text-align: center;
+                position: relative;
+                img.logo {
+                    width: 150px;
+                    border-radius: 50%;
+                }
+                .overlay {
+                    position: absolute;
+                    bottom: 0px;
+                    background: rgba(white, 0.8);
+                    height: 20%;
+                    width: 100%;
+                }
             }
         }
     }
