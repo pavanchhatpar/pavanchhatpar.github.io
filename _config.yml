@@ -7,14 +7,95 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br/><br/>
   Outside of internships and curriculum, I have a keen interest in research topics related to NLP and Deep Learning. I try to explain concepts to myself by coding the methods proposed in various research papers.
   <div class='social'>
-    <a href="https://www.linkedin.com/in/pavan-chhatpar/"><img class='social' src='/images/links/black/linkedin.png'/></a>
-    <a href="https://github.com/pavanchhatpar"><img class='social' src='/images/links/black/github.png'/></a>
-    <a href="/pdf/resume.pdf"><img class='social' src='/images/links/black/resume.png'/></a>
+    <a title="LinkedIn" href="https://www.linkedin.com/in/pavan-chhatpar/"><img class='social' src='/images/links/black/linkedin.png'/></a>
+    <a title="GitHub" href="https://github.com/pavanchhatpar"><img class='social' src='/images/links/black/github.png'/></a>
+    <a title="Resume" href="/pdf/resume.pdf"><img class='social' src='/images/links/black/resume.png'/></a>
     <br/>
-    <a href="https://scholar.google.com/citations?hl=en&user=C2s1AyAAAAAJ"><img class='social' src='/images/links/black/google-scholar.png'/></a>
-    <a href="https://www.researchgate.net/profile/Pavan_Chhatpar/research"><img class='social' src='/images/links/black/researchgate.png'/></a>
-    <a href="https://orcid.org/0000-0003-1602-857X"><img class='social' src='/images/links/black/orcid.png'/></a>
+    <a title="Google Scholar" href="https://scholar.google.com/citations?hl=en&user=C2s1AyAAAAAJ"><img class='social' src='/images/links/black/google-scholar.png'/></a>
+    <a title="ResearchGate" href="https://www.researchgate.net/profile/Pavan_Chhatpar/research"><img class='social' src='/images/links/black/researchgate.png'/></a>
+    <a title="OrcID" href="https://orcid.org/0000-0003-1602-857X"><img class='social' src='/images/links/black/orcid.png'/></a>
   </div>
-  
+areas_of_interest:
+  - name: NLP
+    desc: I dive into various NLP techniques, and focus on Natural Language Generation. I have experience using transfer learning for fine-tuning task specific deep neural nets.
+    icon: https://img.icons8.com/material/48/000000/speech-bubble-with-dots.png
+  - name: Machine Learning
+    desc: ML is way more than being able to use packages. I code the algorithms to understand its nuances and how the packages get to an efficient implementation. I find that the math becomes easier along the way of implementing it.
+    icon: https://img.icons8.com/ios-filled/48/000000/artificial-intelligence.png
+  - name: Competitive Coding
+    desc: Every now and then I find myself spending hours improving efficiency of my code and its always a fun exercise. The end result of seeing the execution time reduce by a very high rate brings a feeling of satisfaction.
+    icon: https://img.icons8.com/material/48/000000/code--v1.png
+  - name: Containerization
+    desc: I try to incorporate, for dev and prod environments, containerization tools like Docker, conda, and venv just so that I don't have to scream "But it worked on my laptop!" in the end.
+    icon: https://img.icons8.com/material/48/000000/docker.png
+projects:
+  - name: 'Discourse based sentence splitter'
+    desc: >
+      In the absence of a discourse marker, splitting a sentence at the point of discourse is tricky and such discourse based splitting is quite useful in many NLP tasks. I fine tuned ELECTRA with an appropriate head using transformers library to achieve 91.8% test accuracy in 2 epochs.
+    photo: 'images/projects/sentence-splitter.png'
+    repo:
+      - sentence-splitter
+  - name: 'Question generation using Copy Mechanism'
+    desc: >
+      Used SQuAD 1.1 to train a seq2seq model that employs copy mechanism to generate questions given a pair of context and answer. All code for the model architecture was written using TensorFlow 2.2. Published <a href="https://pypi.org/project/copynet-tf/">copynet-tf</a> which can be trained for any seq2seq task that would benefit from copy mechanism
+    photo: 'images/projects/question-generation.png'
+    repo:
+      - question-generation
+      - copynet-tf
+  - name: 'Endodontic case difficulty and referral decisions'
+    desc: >
+      An interdisciplinary research work where ML was used to automate the referral decision of endodontic cases, which was deployed as a mobile app to use at a busy Nair Dental Hospital, Mumbai. Published in <a href="https://doi.org/10.1007/s00784-019-03050-4">Clinical Oral Investigations, Aug. 2019</a>
+    photo: 'images/projects/aae-nn.png'
+    repo:
+      - aae-nn
+  - name: 'Exploring generalizability of AttnGAN'
+    desc: >
+      Explored the generalizability of an attention-driven GAN model by trying latent space interpolations and understanding the role of the latent vector. The model was also tightly dependent on a particular sentence syntax. It was for an individual project work of CS 7180 
+    photo: 'images/projects/7180.png'
+    repo:
+      - AttnGAN
+  - name: 'Vehicular Traffic Abatement'
+    desc: >
+      Employed various ensemble model techniques to make a tri-class predictor of traffic density in a given location at a given time using over a half a year of crawled data. It was my team's final year undergrad project which was published in <a href="https://doi.org/10.1109/icscet.2018.8537260">ICSCET, an IEEE conference</a> and <a href="https://doi.org/10.22214/ijraset.2018.7119">IJRASET</a> in 2018
+    photo: 'images/projects/vta.png'
+    repo:
+      - GroupNo1-Vehicular-Traffic-Abatement
+  - name: 'ML Algorithms'
+    desc: >
+      A playground repository for various ML algorithms which I implemented as I was learning about them. They may not be optimized like sklearn but it laid a very strong base about my understanding of how things work under the hood.
+    photo: 'images/projects/ml-algos.png'
+    repo:
+      - ml-algorithms
+miscellaneous:
+  - bunk-manager
+  - csv-to-sql-converter
+  - wav-steg-py
+  - cooja-simulation
+  - VSM
+  - packet-sniffer
+skills:
+  - Python
+  - C++
+  - C
+  - Java
+  - Julia
+  - TensorFlow
+  - PyTorch
+  - sklearn
+  - XGBoost
+  - Spark
+  - Airflow
+  - Hive
+  - Vertica
+  - MongoDB
+  - MySQL
+  - MS SQL
+  - HTML
+  - CSS
+  - JavaScript
+  - TypeScript
+  - Angular
+  - Node.js
+  - PHP
 theme: jekyll-theme-minimal
 google_analytics:

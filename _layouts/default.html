@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
+    <link rel="icon" 
+      type="image/png" 
+      href="images/favico.png">
   </head>
   <body>
     <div class="wrapper">
@@ -42,8 +46,83 @@
         {% endif %}
       </header>
       <section>
+        <h2>Skills</h2>
+        <div class="skills">
+          <ul class="tags">
+            {% for skill in site.skills %}
+              <li class="tag">{{ skill }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        <hr/>
+        <h2>Areas of Interest</h2>
+        <div class="interests">
+          {% for interest in site.areas_of_interest %}
+            <div class="interest">
+              <img src="{{ interest.icon }}"/>
+              <h2>{{ interest.name }}</h2>
+              <p>{{ interest.desc }}</p>
+            </div>
+          {% endfor %}
+        </div>
+        <hr/>
+        <h2>Projects</h2>
+        <hr/>
+        <div class="projects">
+          {% for project in site.projects %}
+            <span class='project'>
+              <div class='banner'>
+                <h3>{{ project.name }}</h3>
+                <span class="proj-pic">
+                  <img src="{{ project.photo }}"/>
+                </span>
+              </div>
+              <hr>
+              <p>{{ project.desc }}</p>
+              <span class="project-links">
+                {% for repo in project.repo %}
+                  {% for repository in site.github.public_repositories %}
+                    {% if repository.name == repo %}
+                      <a class="project-link" href="{{ repository.html_url }}" title="{{ repository.name }}"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </span>
+            </span>
+          {% endfor %}
+        </div>
+        <hr class="separator"/>
+        <div class="github-cards">
+          {% for repo in site.miscellaneous %}
+            {% for repository in site.github.public_repositories %}
+              {% if repository.name == repo %}
+                <a class="github-card" href="{{ repository.html_url }}">
+                  <h3>{{ repository.name }}</h3>
+                  <p>{{ repository.description }}</p>
 
-      {{ content }}
+                  <span class="github-meta-card">
+                    <span class="github-card__meta">
+                      <span class="github-card__language-icon" style="color: #7A0410;">●</span> {{ repository.language }}
+                    </span>
+                    <span class="github-card__meta">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <span data-stars>
+                        {{ repository.stargazers_count }}
+                      </span>
+                    </span>
+                    <span class="github-card__meta">
+                      <i class="fa fa-code-fork" aria-hidden="true"></i>
+                      <span data-forks>
+                        {{ repository.forks_count }}
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+        </div>
+        {{ content }}
 
       </section>
       <footer>
