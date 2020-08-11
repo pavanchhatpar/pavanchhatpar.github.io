@@ -5,7 +5,7 @@ description: >
 sub_description: > # your text below (remove <br> elements if you don't need line breaks)
   I am a graduate student at Northeastern University. I'm working towards my Master's degree in Computer Science specializing in Data Science and Artificial Intelligence.
   <br/><br/>
-  Currently, I'm a Data Science Intern at Honeywell. Before this, I did a Data Science Co-op program at Wayfair and an internship at dotin where I contributed to projects on Survival Analysis using Deep Learning and various classical ML models.
+  Currently, I'm walking into my last semester of grad school. I did Data Science internships at Honeywell and Wayfair while enrolled in grad school, where I contributed to projects using NLP and Survival Analysis using Deep Learning.
   <br/><br/>
   Outside of internships and curriculum, I have a keen interest in research topics related to NLP and Deep Learning. I try to explain concepts to myself by coding the methods proposed in various research papers.
   <div class='social'>
@@ -39,7 +39,7 @@ projects:
       - sentence-splitter
   - name: 'Question generation using Copy Mechanism'
     desc: >
-      Used SQuAD 1.1 to train a seq2seq model that employs copy mechanism to generate questions given a pair of context and answer. All code for the model architecture was written using TensorFlow 2.2. Published <a href="https://pypi.org/project/copynet-tf/">copynet-tf</a> which can be trained for any seq2seq task that would benefit from copy mechanism
+      Used SQuAD 1.1 to train a seq2seq model that employs copy mechanism to generate questions given a pair of context and answer. All code for the model architecture was written using TensorFlow 2.2. Published <a href="https://pypi.org/project/copynet-tf/">copynet-tf</a> which can be trained for any seq2seq task that would benefit from copy mechanism. Questions generated could predict answers with 18% lesser F1 score compared to original questions.
     photo: 'images/projects/question-generation.png'
     repo:
       - question-generation
