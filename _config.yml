@@ -1,6 +1,8 @@
 title: Pavan Chhatpar # your name (or website title) here
 logo: "/images/avatar.jpeg?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
+description: >
+  Graduate student at Northeastern
+sub_description: > # your text below (remove <br> elements if you don't need line breaks)
   I am a graduate student at Northeastern University. I'm working towards my Master's degree in Computer Science specializing in Data Science and Artificial Intelligence.
   <br/><br/>
   Currently, I'm a Data Science Intern at Honeywell. Before this, I did a Data Science Co-op program at Wayfair and an internship at dotin where I contributed to projects on Survival Analysis using Deep Learning and various classical ML models.
