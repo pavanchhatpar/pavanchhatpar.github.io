@@ -1,13 +1,13 @@
 title: Pavan Chhatpar # your name (or website title) here
 logo: "/images/avatar.jpeg?raw=true" # your photo (or logo) here
 description: >
-  Graduate student at Northeastern
+  Data Scientist II at Honeywell
 sub_description: > # your text below (remove <br> elements if you don't need line breaks)
-  I am a graduate student at Northeastern University. I'm working towards my Master's degree in Computer Science specializing in Data Science and Artificial Intelligence.
+  I am a recent graduate from Northeastern University, with a Master's Degree in Computer Science specializing in Data Science and Artificial Intelligence.
   <br/><br/>
-  Currently, I'm walking into my last semester of grad school. I did Data Science internships at Honeywell and Wayfair while enrolled in grad school, where I contributed to projects using NLP and Survival Analysis using Deep Learning.
+  Currently, I work at Honeywell, where I help various internal business groups solve their problems using Data Science. As a part of the Data Science team, I promote best practices in Data Science development.
   <br/><br/>
-  Outside of internships and curriculum, I have a keen interest in research topics related to NLP and Deep Learning. I try to explain concepts to myself by coding the methods proposed in various research papers.
+  I have a keen interest in research topics related to NLP and Deep Learning. I explain concepts to myself by coding the methods proposed in various research papers
   <div class='social'>
     <a title="LinkedIn" href="https://www.linkedin.com/in/pavan-chhatpar/"><img class='social' src='/images/links/black/linkedin.png'/></a>
     <a title="GitHub" href="https://github.com/pavanchhatpar"><img class='social' src='/images/links/black/github.png'/></a>
@@ -84,20 +84,17 @@ skills:
   - TensorFlow
   - PyTorch
   - sklearn
+  - transformers
   - XGBoost
   - Spark
+  - Databricks
   - Airflow
   - Hive
   - Vertica
   - MongoDB
   - MySQL
   - MS SQL
-  - HTML
-  - CSS
-  - JavaScript
-  - TypeScript
-  - Angular
-  - Node.js
-  - PHP
+  - ML Deployment
+  - Transfer Learning
 theme: jekyll-theme-minimal
 google_analytics:
