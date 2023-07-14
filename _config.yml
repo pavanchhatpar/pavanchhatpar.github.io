@@ -3,11 +3,13 @@ logo: "/images/avatar.jpeg?raw=true" # your photo (or logo) here
 description: >
   Advanced Data Scientist at Honeywell
 sub_description: > # your text below (remove <br> elements if you don't need line breaks)
-  I am a recent graduate from Northeastern University, with a Master's Degree in Computer Science specializing in Data Science and Artificial Intelligence.
+  Currently, I work at Honeywell, where I contribute in developing production ready ML models for products powered by Data Science. As part of the Data Science team, I promote best practices in Data Science development focusing on reducing the gap between experimentation and deployment.
   <br/><br/>
-  Currently, I work at Honeywell, where I help various internal business groups solve their problems using Data Science. As a part of the Data Science team, I promote best practices in Data Science development.
+  I graduated from Northeastern University, with a Master's Degree in Computer Science specializing in Data Science and Artificial Intelligence.
   <br/><br/>
-  I have a keen interest in research topics related to NLP and Deep Learning. I explain concepts to myself by coding the methods proposed in various research papers
+  I have a keen interest in research topics related to NLP and Deep Learning. I explain concepts to myself by coding the methods proposed in various research papers.
+  <br/><br/>
+  ⚡ Fun fact: As an undergrad student I wanted to learn android development and also find time to learn it, so I built an app that planned my leaves in school to never show up on the low attendance radar
   <div class='social'>
     <a title="LinkedIn" href="https://www.linkedin.com/in/pavan-chhatpar/"><img class='social' src='/images/links/black/linkedin.png'/></a>
     <a title="GitHub" href="https://github.com/pavanchhatpar"><img class='social' src='/images/links/black/github.png'/></a>
@@ -86,6 +88,7 @@ skills:
   - sklearn
   - transformers
   - XGBoost
+  - mlflow
   - Spark
   - Databricks
   - Airflow
@@ -94,6 +97,7 @@ skills:
   - MongoDB
   - MySQL
   - MS SQL
+  - PostgreSQL
   - ML Deployment
   - Transfer Learning
 theme: jekyll-theme-minimal
