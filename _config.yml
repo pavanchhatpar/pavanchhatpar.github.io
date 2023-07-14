@@ -3,13 +3,6 @@ logo: "/images/avatar.jpeg?raw=true" # your photo (or logo) here
 description: >
   Advanced Data Scientist at Honeywell
 sub_description: > # your text below (remove <br> elements if you don't need line breaks)
-  Currently, I work at Honeywell, where I contribute in developing production ready ML models for products powered by Data Science. As part of the Data Science team, I promote best practices in Data Science development focusing on reducing the gap between experimentation and deployment.
-  <br/><br/>
-  I graduated from Northeastern University, with a Master's Degree in Computer Science specializing in Data Science and Artificial Intelligence.
-  <br/><br/>
-  I have a keen interest in research topics related to NLP and Deep Learning. I explain concepts to myself by coding the methods proposed in various research papers.
-  <br/><br/>
-  ⚡ Fun fact: As an undergrad student I wanted to learn android development and also find time to learn it, so I built an app that planned my leaves in school to never show up on the low attendance radar
   <div class='social'>
     <a title="LinkedIn" href="https://www.linkedin.com/in/pavan-chhatpar/"><img class='social' src='/images/links/black/linkedin.png'/></a>
     <a title="GitHub" href="https://github.com/pavanchhatpar"><img class='social' src='/images/links/black/github.png'/></a>
@@ -19,6 +12,13 @@ sub_description: > # your text below (remove <br> elements if you don't need lin
     <a title="ResearchGate" href="https://www.researchgate.net/profile/Pavan_Chhatpar/research"><img class='social' src='/images/links/black/researchgate.png'/></a>
     <a title="OrcID" href="https://orcid.org/0000-0003-1602-857X"><img class='social' src='/images/links/black/orcid.png'/></a>
   </div>
+  Currently, I work at Honeywell, where I contribute in developing production ready ML models for products powered by Data Science. As part of the Data Science team, I promote best practices in Data Science development focusing on reducing the gap between experimentation and deployment.
+  <br/><br/>
+  I graduated from Northeastern University, with a Master's Degree in Computer Science specializing in Data Science and Artificial Intelligence.
+  <br/><br/>
+  I have a keen interest in research topics related to NLP and Deep Learning. I explain concepts to myself by coding the methods proposed in various research papers.
+  <br/><br/>
+  ⚡ Fun fact: As an undergrad student I wanted to learn android development and also find time to learn it, so I built an app that planned my leaves in school to never show up on the low attendance radar
 areas_of_interest:
   - name: NLP
     desc: I dive into various NLP techniques, and focus on Natural Language Generation. I have experience using transfer learning for fine-tuning task specific deep neural nets.
