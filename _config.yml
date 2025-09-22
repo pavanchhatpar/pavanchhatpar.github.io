@@ -33,12 +33,18 @@ areas_of_interest:
     desc: I try to incorporate, for dev and prod environments, containerization tools like Docker, conda, and venv just so that I don't have to scream "But it worked on my laptop!" in the end.
     icon: https://img.icons8.com/material/48/000000/docker.png
 projects:
-  - name: 'Discourse based sentence splitter'
+  - name: 'RAG with Open LLMs and Vector DB'
     desc: >
-      In the absence of a discourse marker, splitting a sentence at the point of discourse is tricky and such discourse based splitting is quite useful in many NLP tasks. I fine tuned ELECTRA with an appropriate head using transformers library to achieve 91.8% test accuracy in 2 epochs.
-    photo: 'images/projects/sentence-splitter.png'
+      A POC that shows using RAG to get answers from a User Manual. It was implemented using Vector DB and Open-source LLMs chained together with the help of langchain.
+    photo: 'images/projects/llm_retriever.png'
     repo:
-      - sentence-splitter
+      - llm_retriever
+  - name: 'Endodontic case difficulty and referral decisions'
+    desc: >
+      An interdisciplinary research work where ML was used to automate the referral decision of endodontic cases, which was deployed as a mobile app to use at a busy Nair Dental Hospital, Mumbai. Published in <a href="https://doi.org/10.1007/s00784-019-03050-4">Clinical Oral Investigations, Aug. 2019</a>
+    photo: 'images/projects/aae-nn.png'
+    repo:
+      - aae-nn
   - name: 'Question generation using Copy Mechanism'
     desc: >
       Used SQuAD 1.1 to train a seq2seq model that employs copy mechanism to generate questions given a pair of context and answer. All code for the model architecture was written using TensorFlow 2.2. Published <a href="https://pypi.org/project/copynet-tf/">copynet-tf</a> which can be trained for any seq2seq task that would benefit from copy mechanism. Questions generated could predict answers with 18% lesser F1 score compared to original questions.
@@ -46,12 +52,12 @@ projects:
     repo:
       - question-generation
       - copynet-tf
-  - name: 'Endodontic case difficulty and referral decisions'
+  - name: 'Discourse based sentence splitter'
     desc: >
-      An interdisciplinary research work where ML was used to automate the referral decision of endodontic cases, which was deployed as a mobile app to use at a busy Nair Dental Hospital, Mumbai. Published in <a href="https://doi.org/10.1007/s00784-019-03050-4">Clinical Oral Investigations, Aug. 2019</a>
-    photo: 'images/projects/aae-nn.png'
+      In the absence of a discourse marker, splitting a sentence at the point of discourse is tricky and such discourse based splitting is quite useful in many NLP tasks. I fine tuned ELECTRA with an appropriate head using transformers library to achieve 91.8% test accuracy in 2 epochs.
+    photo: 'images/projects/sentence-splitter.png'
     repo:
-      - aae-nn
+      - sentence-splitter
   - name: 'Exploring generalizability of AttnGAN'
     desc: >
       Explored the generalizability of an attention-driven GAN model by trying latent space interpolations and understanding the role of the latent vector. The model was also tightly dependent on a particular sentence syntax. It was for an individual project work of CS 7180 
