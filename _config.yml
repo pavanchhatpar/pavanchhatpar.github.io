@@ -35,7 +35,7 @@ areas_of_interest:
 projects:
   - name: 'RAG with Open LLMs and Vector DB'
     desc: >
-      A POC that shows using RAG to get answers from a User Manual. It was implemented using Vector DB and Open-source LLMs chained together with the help of langchain.
+      A POC that shows using RAG to get answers from a User Manual. It was implemented using FAISS as the Vector Index and Falcon-40B-Instruct (an Open-Source LLM), chained together with the help of LangChain. To add confidence in replies, the answers also cite their sources for reference.
     photo: 'images/projects/llm_retriever.png'
     repo:
       - llm_retriever
