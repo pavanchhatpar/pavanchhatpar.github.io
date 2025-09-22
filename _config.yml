@@ -35,7 +35,7 @@ areas_of_interest:
 projects:
   - name: 'RAG with Open LLMs and Vector DB'
     desc: >
-      A POC that shows using RAG to get answers from a User Manual. It was implemented using FAISS as the Vector Index and Falcon-40B-Instruct (an Open-Source LLM), chained together with the help of LangChain. To add confidence in replies, the answers also cite their sources for reference.
+      A POC that shows using RAG to get answers from a User Manual. It was implemented using a Vector Index from FAISS and Falcon-40B-Instruct (an Open-Source LLM), chained together with the help of LangChain. To add confidence in replies, the answers also cite their sources for reference. This project demonstrates the efficacy of prompt engineering and tuning generation parameters to get useful answers from Open LLMs.
     photo: 'images/projects/llm_retriever.png'
     repo:
       - llm_retriever
