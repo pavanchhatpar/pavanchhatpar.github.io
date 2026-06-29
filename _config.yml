@@ -12,13 +12,13 @@ sub_description: > # your text below (remove <br> elements if you don't need lin
     <a title="ResearchGate" href="https://www.researchgate.net/profile/Pavan_Chhatpar/research"><img class='social' src='/images/links/black/researchgate.png'/></a>
     <a title="OrcID" href="https://orcid.org/0000-0003-1602-857X"><img class='social' src='/images/links/black/orcid.png'/></a>
   </div>
-  Currently, I work at Honeywell, where I contribute in developing production ready ML models for products powered by Data Science. As part of the Data Science team, I promote best practices in Data Science development focusing on reducing the gap between experimentation and deployment.
+  I'm a Lead AI Engineer at Honeywell with over five years of experience building production AI systems, scalable ML infrastructure, and enterprise GenAI platforms.
   <br/><br/>
-  I graduated from Northeastern University, with a Master's Degree in Computer Science specializing in Data Science and Artificial Intelligence.
+  I co-architected Honeywell's Agentic AI platform, enabling teams across the organization to build and deploy production-ready AI agents with capabilities including multi-tenancy, scalable orchestration, retrieval over large vector databases, responsible AI guardrails, observability, and continuous feedback. The platform also powers private, air-gapped AI deployments through optimized and fine-tuned open-source LLMs.
   <br/><br/>
-  I have a keen interest in research topics related to NLP and Deep Learning. I explain concepts to myself by coding the methods proposed in various research papers.
+  My experience spans the entire machine learning lifecycle—from training multimodal transformer models and building real-time learning systems to optimizing high-performance inference using Kubernetes, vLLM, KServe, ONNX, and model quantization. I enjoy solving systems-level challenges that make AI reliable, scalable, and accessible in production.
   <br/><br/>
-  ⚡ Fun fact: As an undergrad student I wanted to learn android development and also find time to learn it, so I built an app that planned my leaves in school to never show up on the low attendance radar
+  I hold an M.S. in Computer Science with a specialization in Natural Language Processing, giving me a strong foundation in generative modeling alongside deep software engineering expertise. I enjoy bridging AI research with production systems and contributing to open-source technologies that advance the AI ecosystem.
 areas_of_interest:
   - name: NLP
     desc: I dive into various NLP techniques, and focus on Natural Language Generation. I have experience using transfer learning for fine-tuning task specific deep neural nets.
